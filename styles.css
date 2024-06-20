@@ -1,0 +1,73 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+.container {
+  background-color: #1b1924;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+#input-el {
+  background-color: #444059;
+  border-radius: 8px;
+  padding: 40px;
+  border: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  resize: vertical;
+}
+
+#input-el ::placeholder {
+  color: #8f8f8f;
+  text-align: left;
+}
+
+#publish-btn {
+  border-radius: 8px;
+  background-color: #28a9f1;
+  color: #04131c;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+}
+
+ul li {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: #1b1924;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#endorsement-list li:hover {
+  cursor: pointer;
+}
